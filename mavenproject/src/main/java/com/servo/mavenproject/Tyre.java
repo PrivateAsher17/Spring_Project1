@@ -1,5 +1,8 @@
 package com.servo.mavenproject;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Tyre {
 	private String brand;
 
@@ -7,6 +10,7 @@ public class Tyre {
 		return brand;
 	}
 
+	//Setter Injection
 	public void setBrand(String brand) {
 		this.brand = brand;
 	}

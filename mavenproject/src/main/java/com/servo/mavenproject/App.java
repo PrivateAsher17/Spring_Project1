@@ -16,7 +16,7 @@ public class App
     	
 //        Vehicle obj = (Vehicle) context.getBean("bike");
 //        obj.drive();
-        Tyre t = (Tyre) context.getBean("tyre");
+        Car t = (Car) context.getBean("car");
         System.out.println(t);
     }
 }
