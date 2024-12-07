@@ -1,5 +1,8 @@
 package com.servo.mavenproject;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Snapdragon implements Processor {
 
 	@Override
